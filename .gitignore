@@ -1,0 +1,11 @@
+/agents/.env
+/agents/app.py
+/agents/assistant-*
+/data_processing/.env
+/data_processing/csv_tables/ACFR-*.csv
+/data_processing/csv_tables/CAFR-*.csv
+/data_processing/data
+/data_processing/results
+/data_processing/data_processing/ipynb
+/data_processing/doc_intel.ipynb
+/data_processing/identify_and_merge_cross_page_tables.ipynb
