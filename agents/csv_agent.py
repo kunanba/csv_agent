@@ -48,7 +48,7 @@ async def initialize_agent():
         Always format your response using markdown and include numerical indexing for lists or tables.
         Always sort lists in ascending order.
         Please use the context of the previous conversation to answer follow-up questions.
-        When possible, include a chart or diagram to illustrate your findings.
+        Always include a chart or diagram to illustrate your findings.
     """
     
     code_interpreter_tools, code_interpreter_tool_resources = AzureAssistantAgent.configure_code_interpreter_tool(
